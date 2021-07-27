@@ -1,0 +1,56 @@
+body,html{
+  height: 100%;
+  background: #209cee;
+}
+.heading{
+     color: white;
+     text-align: center;
+}
+.todo{
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin: 10px;
+     padding: 5px;
+     background:white ;
+     border-radius: 5px;
+}
+.todo p{
+  width: 90%;
+}
+.status button{
+      margin: 2px;
+      border-radius: 10px;
+      border: 1px solid white;
+}
+.complete{
+   background-color: skyblue;
+   color:white;
+}
+.delete{
+  background-color: red;
+  color: white;
+}
+input{
+  padding: 5px;
+  border: 0px;
+  margin: 10px;
+  width: 98%;
+  border-radius: 10px;
+}
+.todos{
+    height:400px;
+    overflow: auto;
+    background: lightgray;
+}
+.developer{
+  background-color: maroon;
+  width: 200px;
+  text-align: center;
+  color: white;
+  transform :rotate(-45deg) ;
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  padding: 5px;
+}
